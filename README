@@ -1,0 +1,6 @@
+steps to run project 
+1. npm install  (in main folder)
+2. cd frontend
+3. npm install  (in frontend folder)
+4. setup mongodb url and create collection like mongodb_schema.json 
+5. npm run dev (run backend and frontend both)

@@ -1,0 +1,3 @@
+<ul>
+                {suggestion.map((item)=> <li onClick={()=> this.onsuggselected(item)}>{item}</li>)}
+            </ul>

@@ -1,0 +1,230 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 2,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 2,
+          "values": [
+            "5d58fd14af5eef0650d576cc",
+            "5d596561659ef520c8b3fd1c"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 2,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "sub",
+      "path": "sub",
+      "count": 2,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "sub",
+          "count": 2,
+          "values": [
+            "economics",
+            "ctet"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 2,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "ylinks",
+      "path": "ylinks",
+      "count": 2,
+      "types": [
+        {
+          "name": "Array",
+          "bsonType": "Array",
+          "path": "ylinks",
+          "count": 2,
+          "types": [
+            {
+              "name": "Document",
+              "bsonType": "Document",
+              "path": "ylinks",
+              "count": 8,
+              "fields": [
+                {
+                  "name": "id",
+                  "path": "ylinks.id",
+                  "count": 8,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "ylinks.id",
+                      "count": 8,
+                      "values": [
+                        "sgtNA5qdTt0",
+                        "qnbXEoAsdxU",
+                        "oV1VxliKXOM",
+                        "8r9lbqhqJhc",
+                        "5rzToFn7iGo",
+                        "s0HaUsBhAl0",
+                        "HBOVx7xmoG0",
+                        "KWlh0aTN3D4"
+                      ],
+                      "total_count": 0,
+                      "probability": 1,
+                      "unique": 8,
+                      "has_duplicates": false
+                    }
+                  ],
+                  "total_count": 8,
+                  "type": "String",
+                  "has_duplicates": false,
+                  "probability": 1
+                },
+                {
+                  "name": "srno",
+                  "path": "ylinks.srno",
+                  "count": 8,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "ylinks.srno",
+                      "count": 6,
+                      "values": [
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "1",
+                        "2"
+                      ],
+                      "total_count": 0,
+                      "probability": 0.75,
+                      "unique": 6,
+                      "has_duplicates": false
+                    },
+                    {
+                      "name": "Int32",
+                      "bsonType": "Int32",
+                      "path": "ylinks.srno",
+                      "count": 2,
+                      "values": [
+                        1,
+                        2
+                      ],
+                      "total_count": 0,
+                      "probability": 0.25,
+                      "unique": 2,
+                      "has_duplicates": false
+                    }
+                  ],
+                  "total_count": 8,
+                  "type": [
+                    "String",
+                    "Int32"
+                  ],
+                  "has_duplicates": false,
+                  "probability": 1
+                },
+                {
+                  "name": "title",
+                  "path": "ylinks.title",
+                  "count": 8,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "ylinks.title",
+                      "count": 8,
+                      "values": [
+                        "intorduction to gs economics",
+                        "this is lec 2",
+                        "National Income economics",
+                        "GNP of a economy",
+                        "NNP of a economy",
+                        "National income at different cost/price",
+                        "introduction to CDP",
+                        "Stage OF growth CDP"
+                      ],
+                      "total_count": 0,
+                      "probability": 1,
+                      "unique": 8,
+                      "has_duplicates": false
+                    }
+                  ],
+                  "total_count": 8,
+                  "type": "String",
+                  "has_duplicates": false,
+                  "probability": 1
+                },
+                {
+                  "name": "ylink",
+                  "path": "ylinks.ylink",
+                  "count": 8,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "ylinks.ylink",
+                      "count": 8,
+                      "values": [
+                        "https://www.youtube.com/watch?v=sgtNA5qdTt0",
+                        "https://www.youtube.com/watch?v=qnbXEoAsdxU",
+                        "https://www.youtube.com/watch?v=oV1VxliKXOM",
+                        "https://www.youtube.com/watch?v=8r9lbqhqJhc",
+                        "https://www.youtube.com/watch?v=5rzToFn7iGo",
+                        "https://www.youtube.com/watch?v=s0HaUsBhAl0",
+                        "https://www.youtube.com/watch?v=HBOVx7xmoG0",
+                        "https://www.youtube.com/watch?v=KWlh0aTN3D4"
+                      ],
+                      "total_count": 0,
+                      "probability": 1,
+                      "unique": 8,
+                      "has_duplicates": false
+                    }
+                  ],
+                  "total_count": 8,
+                  "type": "String",
+                  "has_duplicates": false,
+                  "probability": 1
+                }
+              ],
+              "total_count": 0,
+              "probability": 1
+            }
+          ],
+          "lengths": [
+            6,
+            2
+          ],
+          "total_count": 8,
+          "probability": 1,
+          "average_length": 4
+        }
+      ],
+      "total_count": 2,
+      "type": "Array",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 2
+}
